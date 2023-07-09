@@ -10,8 +10,40 @@ pwd : print working directory
 
 \~ : significa que nos encontramos en el "home directory"
 
+--\> mosia\@LAPTOP-J59PJJDU MINGW64 \~
+
 ls : lista todo el contenido del directory
 
 mkdir : crea un directory en donde nos encontremos.
 
 --\> mkdir docs teaching (agrega dos directories)
+
+rmdir : elimina un directory
+
+cd : change directory
+
+--\> cd projects (entraremos al directory projects) mosia\@LAPTOP-J59PJJDU MINGW64 \~/projects
+
+cd .. : return to parent directory
+
+cd \~ : return to home directory no matter where we are
+
+cd \~/projects : ir a un directory escribiendo todo el path out
+
+cd ../.. : return to the parent directory of the parent directory
+
+cd : Si se pone a secas regresaremos al home directory
+
+mv: move command
+
+--\> mv path_to_file path_to_destination_directory
+
+![](images/paste-5A0BBA51.png)
+
+also, with this can chage the name of the document: mv cv.text resume.text
+
+cp : copy just **files** - similar to mv, por el momento no directories
+
+rm: remove just files - is **permanent!!**, por el momento no directories
+
+less : take a look to the file -- press q to exit
